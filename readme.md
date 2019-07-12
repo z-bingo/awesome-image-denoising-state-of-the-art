@@ -1,9 +1,9 @@
-# reproducible-image-denoising-state-of-the-art
+# Awesome Image or Video Denoising Algorithms
 Collection of popular and reproducible image denoising works.
 
-Criteria: works must have codes available, and the reproducible results demonstrate state-of-the-art performances.
+**I will update the document when I access the new work for image or video denoising. Everyone could remind me to update if you access the latest work.**
 
-This collection is based on the summary of [wenbihan's work](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
+This collection is based on the summary of [wenbihan's work](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art).
 
 
 ## Denoising Algorithms
