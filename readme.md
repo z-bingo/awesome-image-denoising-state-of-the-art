@@ -6,9 +6,20 @@ Collection of popular and reproducible image denoising works.
 This collection is based on the summary of [wenbihan's work](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art).
 
 ## Contents
-1. [Denoising Algorithms](#denoising-algorithms)
-2. [Benchmark and Dataset](#benchmark-and-dataset)
-3. [Others](#others)
+1. [Denoising Algorithms](#denoising-algorithms)  
+1.1 [Filter](#filter)  
+1.2 [Sparse Coding](#sparse-coding)  
+1.3 [Effective Prior](#effective-prior)  
+1.4 [Low Rank](#low-rank)  
+1.5 [Deep Learning](#deep-learning)  
+1.6 [Sparsity and Low-rankness Combined](#sparsity-and-low-rankness-combined)  
+1.7 [Combined with High-Level Tasks](#combined-with-high-level-tasks)  
+1.8 [Image Noise Level Estimation](#image-noise-level-estimation)
+2. [Benchmark and Dataset](#benchmark-and-dataset)  
+2.1 [Novel Benchmark](#novel-benchmark)  
+2.2 [Commonly Used Denoising Dataset](#commonly-used-denoising-dataset)
+3. [Others](#others)  
+3.1 [Commonly Used Image Quality Metric Code](#commonly-used-image-quality-metric-code)
 
 ## Denoising Algorithms
 #### Filter
