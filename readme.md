@@ -7,19 +7,19 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
 
 ## Contents
 1. [Denoising Algorithms](#denoising-algorithms)  
-1.1 [Filter](#filter)  
-1.2 [Sparse Coding](#sparse-coding)  
-1.3 [Effective Prior](#effective-prior)  
-1.4 [Low Rank](#low-rank)  
-1.5 [Deep Learning](#deep-learning)  
-1.6 [Sparsity and Low-rankness Combined](#sparsity-and-low-rankness-combined)  
-1.7 [Combined with High-Level Tasks](#combined-with-high-level-tasks)  
-1.8 [Image Noise Level Estimation](#image-noise-level-estimation)
+    1.1 [Filter](#filter)  
+    1.2 [Sparse Coding](#sparse-coding)  
+    1.3 [Effective Prior](#effective-prior)  
+    1.4 [Low Rank](#low-rank)  
+    1.5 [Deep Learning](#deep-learning)  
+    1.6 [Sparsity and Low-rankness Combined](#sparsity-and-low-rankness-combined)  
+    1.7 [Combined with High-Level Tasks](#combined-with-high-level-tasks)  
+    1.8 [Image Noise Level Estimation](#image-noise-level-estimation)
 2. [Benchmark and Dataset](#benchmark-and-dataset)  
-2.1 [Novel Benchmark](#novel-benchmark)  
-2.2 [Commonly Used Denoising Dataset](#commonly-used-denoising-dataset)
+    2.1 [Novel Benchmark](#novel-benchmark)  
+    2.2 [Commonly Used Denoising Dataset](#commonly-used-denoising-dataset)
 3. [Others](#others)  
-3.1 [Commonly Used Image Quality Metric Code](#commonly-used-image-quality-metric-code)
+    3.1 [Commonly Used Image Quality Metric Code](#commonly-used-image-quality-metric-code)
 
 ## Denoising Algorithms
 #### Filter
@@ -66,67 +66,93 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
 #### Deep Learning
  * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
    * Shrinkage Fields for Effective Image Restoration (CVPR 2014), Schmidt et al.
+   
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
    * Trainable nonlinear reaction diffusion: A flexible framework for fast and effective image restoration (TPAMI 2016), Chen et al.
+   
  * RED [[Web]](https://bitbucket.org/chhshen/image-denoising/) [[Code]](https://bitbucket.org/chhshen/image-denoising/) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
    * Image Restoration Using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections (NIPS2016), Mao et al.
+   
  * DnCNN [[Web]](https://github.com/cszn/DnCNN) [[Code]](https://github.com/cszn/DnCNN) [[PDF]](https://arxiv.org/pdf/1608.03981v1.pdf)
    * Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (TIP2017), Zhang et al.
+   
  * MemNet [[Web]](https://github.com/tyshiwo/MemNet) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
    * MemNet: A Persistent Memory Network for Image Restoration (ICCV2017), Tai et al.  
+   
  * WIN [[Web]](https://github.com/cswin/WIN) [[Code]](https://github.com/cswin/WIN) [[PDF]](https://arxiv.org/pdf/1707.09135.pdf)
    * Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising (Arxiv), Liu et al.    
+   
  * F-W Net [[Web]](https://github.com/sunke123/FW-Net) [[Code]](https://github.com/sunke123/FW-Net) [[PDF]](https://arxiv.org/abs/1802.10252)
    * L_p-Norm Constrained Coding With Frank-Wolfe Network (Arxiv), Sun et al.
+   
  * NLCNN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/NLNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2017/06/1320.pdf)
    * Non-Local Color Image Denoising with Convolutional Neural Networks (CVPR 2017), Lefkimmiatis.
 
  * Deep image prior [[Web]](https://dmitryulyanov.github.io/deep_image_prior) [[Code]](https://github.com/DmitryUlyanov/deep-image-prior) [[PDF]](https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf)
    * Deep Image Prior (CVPR 2018), Ulyanov et al.
+   
  * xUnit [[Web]](https://github.com/kligvasser/xUnit) [[Code]](https://github.com/kligvasser/xUnit) [[PDF]](https://arxiv.org/pdf/1711.06445.pdf)
    * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (Arxiv), Kligvasser et al.  
+   
  * UDNet [[Web]](https://github.com/cig-skoltech/UDNet) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
    * Universal Denoising Networks : A Novel CNN Architecture for Image Denoising (CVPR 2018), Stamatios  Lefkimmiatis.   
+   
  * Wavelet-CNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/abs/1805.07071)
    * Multi-level Wavelet-CNN for Image Restoration (Arxiv), Liu et al.  
+   
  * FFDNet [[Web]](https://github.com/cszn/FFDNet/) [[Code]](https://github.com/cszn/FFDNet/) [[PDF]](https://arxiv.org/abs/1710.04026)
    * FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (TIP), Zhang et al.
+   
  * FC-AIDE [[Web]](https://github.com/csm9493/FC-AIDE) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.07569.pdf)
-   * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al.  
+   * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al. 
+    
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
+   
  * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
    * Noise2Noise: Learning Image Restoration without Clean Data (ICML 2018), Lehtinen et al.      
+   
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
    * Universal Denoising Networks- A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.     
+   
  * N3 [[Web]](https://github.com/visinf/n3net) [[Code]](https://github.com/visinf/n3net) [[PDF]](https://arxiv.org/abs/1810.12575)
    * Neural Nearest Neighbors Networks (NIPS 2018), Plotz et al.  
+   
  * NLRN [[Web]](https://github.com/Ding-Liu/NLRN) [[Code]](https://github.com/Ding-Liu/NLRN) [[PDF]](https://arxiv.org/pdf/1806.02919.pdf)
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
+   
  * KPN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1712.02327.pdf)
    * Burst Denoising with Kernel Prediction Networks (CVPR 2018), Ben et al.
+   
  * MKPN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1902.05392.pdf)
    * Multi-Kernel Prediction Networks for Denoising of Burst Images (ArXiv 2019), Marinc et al.
+   
  * RFCN [[Web]](http://visual.cs.ucl.ac.uk/pubs/deepBurstDenoising/) [[Code]]() [[PDF]](https://arxiv.org/pdf/1712.05790.pdf) [[PDF]](https://arxiv.org/pdf/1904.07483.pdf)
    * Deep Burst Denoising (ArXiv 2017), Clement et al.
    * End-to-End Denoising of Dark Burst Images Using Recurrent Fully Convolutional Networks (ArXiv 2019), Zhao et al.
+   
  * CNN-LSTM [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1801.05141.pdf)
    * Image denoising and restoration with CNN-LSTM Encoder Decoder with Direct Attention (ArXiv 2018), Haque et al.
+   
  * GRDN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1905.11172.pdf)
    * GRDN: Grouped Residual Dense Network for Real Image Denoising and GAN-based Real-world Noise Modeling (CVPR 2019), Kim et al.
+   
  * Deformable KPN [[Web]]() [[Code]]() [[PDF]]()
+
+ * BayerUnify BayerAug [[Web]]() [[Code]]() [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Liu_Learning_Raw_Image_Denoising_With_Bayer_Pattern_Unification_and_Bayer_CVPRW_2019_paper.pdf)
+   * Learning Raw Image Denoising With Bayer Pattern Unification and Bayer Preserving Augmentation (CVPR 2019), Liu et al.
  
- * BayerUnify BayerAug [[Web]]() [[Code]]() [[PDF]]()
- 
- * RDU-UD [[Web]]() [[Code]]() [[PDF]]()
+ * RDU-UD [[Web]]() [[Code]]() [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Sim_A_Deep_Motion_Deblurring_Network_Based_on_Per-Pixel_Adaptive_Kernels_CVPRW_2019_paper.pdf)
+   * A Deep Motion Deblurring Network Based on Per-Pixel Adaptive Kernels With Residual Down-Up and Up-Down Modules (CVPR 2019), Sim et al.
  
  * RIDNet [[Web]]() [[Code]]() [[PDF]]()
  
- * EDVR [[Web]]() [[Code]](https://github.com/xinntao/EDVR) [[PDF]]()
+ * EDVR [[Web]](https://github.com/xinntao/EDVR) [[Code]](https://github.com/xinntao/EDVR) [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Wang_EDVR_Video_Restoration_With_Enhanced_Deformable_Convolutional_Networks_CVPRW_2019_paper.pdf)
+   * EDVR: Video Restoration With Enhanced Deformable Convolutional Networks (CVPR 2019), Wang et al.
+   
+ * DVDNet[[Web]](https://github.com/m-tassano/dvdnet) [[Code]](https://github.com/m-tassano/dvdnet) [[PDF]]()
  
- * DVDNet[[Web]]() [[Code]](https://github.com/m-tassano/dvdnet) [[PDF]]()
- 
- * FastDVDNet [[Web]]() [[Code]](https://github.com/m-tassano/fastdvdnet) [[An Unofficial PyTorch Code]](https://github.com/z-bingo/FastDVDNet) [[PDF]]()
+ * FastDVDNet [[Web]](https://github.com/m-tassano/fastdvdnet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[An Unofficial PyTorch Code]](https://github.com/z-bingo/FastDVDNet) [[PDF]]()
    
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
