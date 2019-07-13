@@ -137,7 +137,8 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * GRDN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1905.11172.pdf)
    * GRDN: Grouped Residual Dense Network for Real Image Denoising and GAN-based Real-world Noise Modeling (CVPR 2019), Kim et al.
    
- * Deformable KPN [[Web]]() [[Code]]() [[PDF]]()
+ * Deformable KPN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1904.06903.pdf)
+   * Learning Deformable Kernels for Image and Video Denoising (ArXiv 2019), Xu et al.
 
  * BayerUnify BayerAug [[Web]]() [[Code]]() [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Liu_Learning_Raw_Image_Denoising_With_Bayer_Pattern_Unification_and_Bayer_CVPRW_2019_paper.pdf)
    * Learning Raw Image Denoising With Bayer Pattern Unification and Bayer Preserving Augmentation (CVPR 2019), Liu et al.
@@ -145,14 +146,17 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * RDU-UD [[Web]]() [[Code]]() [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Sim_A_Deep_Motion_Deblurring_Network_Based_on_Per-Pixel_Adaptive_Kernels_CVPRW_2019_paper.pdf)
    * A Deep Motion Deblurring Network Based on Per-Pixel Adaptive Kernels With Residual Down-Up and Up-Down Modules (CVPR 2019), Sim et al.
  
- * RIDNet [[Web]]() [[Code]]() [[PDF]]()
+ * RIDNet [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1904.07396.pdf)
+   * Real Image Denoising with Feature Attention (ArXiv 2019), Anwar et al.
  
  * EDVR [[Web]](https://github.com/xinntao/EDVR) [[Code]](https://github.com/xinntao/EDVR) [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Wang_EDVR_Video_Restoration_With_Enhanced_Deformable_Convolutional_Networks_CVPRW_2019_paper.pdf)
    * EDVR: Video Restoration With Enhanced Deformable Convolutional Networks (CVPR 2019), Wang et al.
    
- * DVDNet[[Web]](https://github.com/m-tassano/dvdnet) [[Code]](https://github.com/m-tassano/dvdnet) [[PDF]]()
+ * DVDNet[[Web]](https://github.com/m-tassano/dvdnet) [[Code]](https://github.com/m-tassano/dvdnet) [[PDF]](https://arxiv.org/pdf/1906.11890.pdf)
+   * DVDnet: A Fast Network for Deep Video Denoising (ArXiv 2019), Tassano et al.
  
- * FastDVDNet [[Web]](https://github.com/m-tassano/fastdvdnet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[An Unofficial PyTorch Code]](https://github.com/z-bingo/FastDVDNet) [[PDF]]()
+ * FastDVDNet [[Web]](https://github.com/m-tassano/fastdvdnet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[An Unofficial PyTorch Code]](https://github.com/z-bingo/FastDVDNet) [[PDF]](https://arxiv.org/pdf/1907.01361.pdf)
+   * FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation (ArXiv 2019), Tassano et al.
    
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
@@ -182,6 +186,7 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * DND [[Web]](https://noise.visinf.tu-darmstadt.de/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Plotz et al.
  * SIDD [[Web]](https://www.eecs.yorku.ca/~kamel/sidd/dataset.php)
+   * A High-Quality Denoising Dataset for Smartphone Cameras.
    
 #### Commonly Used Denoising Dataset
  * Kodak [[Web]](http://r0k.us/graphics/kodak/)
