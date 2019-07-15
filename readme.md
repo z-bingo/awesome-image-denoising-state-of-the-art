@@ -177,13 +177,11 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
 #### Novel Benchmark
  * ReNOIR [[Web]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[Data]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[PDF]](https://arxiv.org/pdf/1409.8230.pdf)
    * RENOIR - A Dataset for Real Low-Light Image Noise Reduction (Arxiv 2014), Anaya, Barbu.   
- * Darmstadt [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
-   * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
  * PolyU [[Web]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[Data]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[PDF]](https://arxiv.org/pdf/1804.02603.pdf)
    * Real-world Noisy Image Denoising: A New Benchmark (Arxiv), Xu et al.
  * Nam [[Web]](http://snam.ml/research/ccnoise) [[PDF]](http://snam.ml/assets/ccnoise_cvpr16/ccnoise_cvpr16.pdf)
    * A Holistic Approach to Cross-Channel Image Noise Modeling and its Application to Image Denoising (CVPR 2016), Nam et al.
- * DND [[Web]](https://noise.visinf.tu-darmstadt.de/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
+ * Darmstadt (DND) [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Plotz et al.
  * SIDD [[Web]](https://www.eecs.yorku.ca/~kamel/sidd/dataset.php)
    * A High-Quality Denoising Dataset for Smartphone Cameras.
