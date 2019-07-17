@@ -158,6 +158,14 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * FastDVDNet [[Web]](https://github.com/m-tassano/fastdvdnet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[An Unofficial PyTorch Code]](https://github.com/z-bingo/FastDVDNet) [[PDF]](https://arxiv.org/pdf/1907.01361.pdf)
    * FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation (ArXiv 2019), Tassano et al.
    
+ * ViDeNN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1904.10898.pdf)
+   * ViDeNN: Deep Blind Video Denoising (ArXic 2019), Calus et al.
+  
+ * Multi-Level Wavelet-CNN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1907.03128.pdf)
+   * Multi-Level Wavelet Convolutional Neural Networks (IEEE Access), Liu et al.
+   
+ 
+   
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
    * When Sparsity Meets Low-Rankness: Transform Learning With Non-Local Low-Rank Constraint for Image Restoration (ICASSP 2017), Wen et al.
