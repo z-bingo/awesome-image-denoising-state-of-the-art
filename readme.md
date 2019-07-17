@@ -165,7 +165,6 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
    * Multi-Level Wavelet Convolutional Neural Networks (IEEE Access), Liu et al.
    
  
-   
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
    * When Sparsity Meets Low-Rankness: Transform Learning With Non-Local Low-Rank Constraint for Image Restoration (ICASSP 2017), Wen et al.
