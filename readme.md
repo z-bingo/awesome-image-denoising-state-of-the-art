@@ -167,6 +167,9 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * PRIDNet [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1908.00273.pdf)
    * Pyramid Read Image Denoising Network (Arxiv 2019), Zhao et al.
    
+ * CycleISP [[Web]](https://github.com/swz30/CycleISP) [[Code]](https://github.com/swz30/CycleISP) [[PDF]](https://arxiv.org/pdf/2003.07761.pdf)
+   * CycleISP: Real Image Restoration via Improved Data Synthesis (CVPR 2020), Zamir et al.
+   
  
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
