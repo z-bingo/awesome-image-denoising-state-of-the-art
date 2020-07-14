@@ -170,6 +170,9 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * CycleISP [[Web]](https://github.com/swz30/CycleISP) [[Code]](https://github.com/swz30/CycleISP) [[PDF]](https://arxiv.org/pdf/2003.07761.pdf)
    * CycleISP: Real Image Restoration via Improved Data Synthesis (CVPR 2020), Zamir et al.
    
+ * MIRNEt [[Web]](https://github.com/swz30/MIRNet) [[Code]](https://github.com/swz30/MIRNet) [[PDF]](https://arxiv.org/pdf/2003.06792.pdf)
+   * MIRNEt: Learning Enriched Features for Real Image Restoration and Enhancement (ECCV 2020), Zamir et al.
+   
  
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
