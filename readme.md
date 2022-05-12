@@ -110,7 +110,10 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
    
  * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
-   * Noise2Noise: Learning Image Restoration without Clean Data (ICML 2018), Lehtinen et al.      
+   * Noise2Noise: Learning Image Restoration without Clean Data (ICML 2018), Lehtinen et al.
+
+ * Neighbor2Neighbor [[Official Code]](https://github.com/TaoHuang2018/Neighbor2Neighbor) [[Minimal PyTorch Code]](https://github.com/neeraj3029/Ne2Ne-Image-Denoising) [[PDF]](https://arxiv.org/abs/2101.02824.pdf)
+   * Neighbor2Neighbor: Self-Supervised Denoising from Single Noisy Images, Huang et al.      
    
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
    * Universal Denoising Networks- A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.     
@@ -188,6 +191,10 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
    * Single-image Noise Level Estimation for Blind Denoising (TIP 2014), Liu et al.
  * CBDNet [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.
+ * HyperIQA [[Code]](https://github.com/SSL92/hyperIQA) [[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.pdf)
+   * Blindly Assess Image Quality in the Wild Guided by A Self-Adaptive Hyper Network (CVPR 2020), Su et al.
+ * PaQ-2-PiQ [[Code]](https://github.com/baidut/PaQ-2-PiQ) [[PDF]](https://arxiv.org/pdf/1912.10088.pdf)
+   * From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality (Arxiv), Ying et al.
 
 ## Benchmark and Dataset
 #### Novel Benchmark
