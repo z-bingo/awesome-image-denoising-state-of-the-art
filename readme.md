@@ -185,6 +185,9 @@ This collection is based on the summary of [wenbihan's work](https://github.com/
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
 
+#### Diffusion-Based Models
+ * Denoising-ODE [[Code]](https://github.com/Algolzw/image-restoration-sde) [[PDF]](https://arxiv.org/pdf/2301.11699) [[Project]](https://algolzw.github.io/ir-sde/index.html)
+    * Image Restoration with Mean-Reverting Stochastic Differential Equations (ICML 2023), Luo et al.
 
 #### Image Noise Level Estimation
  * SINLE [[PDF]](http://www.ok.sc.e.titech.ac.jp/res/NLE/TIP2013-noise-level-estimation06607209.pdf) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/36921-noise-level-estimation-from-a-single-image) [[Slides]](https://wwwpub.zih.tu-dresden.de/~hh3/Hauptsem/SS16/noise.pdf)
